@@ -1,0 +1,3 @@
+.overlay::before, .overlay::after {
+    background: none !important;
+}

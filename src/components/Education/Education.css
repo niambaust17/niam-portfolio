@@ -1,0 +1,42 @@
+.education-card {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
+    border-radius: 20px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.educard-img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.educard-img > img {
+    width: 40px;
+}
+
+.education-details{
+    margin-left: 0.6rem;
+}
+
+@media screen and (max-width: 800px) {
+    .education-card {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .educard-img {
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+    
+    .educard-img > img {
+        width: 30px;
+    }
+}

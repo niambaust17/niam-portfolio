@@ -1,0 +1,21 @@
+.singleBlog--image {
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.singleBlog--image > img {
+    object-fit: cover;
+    transition: transform 1s, filter 2s ease-in-out;
+    filter: blur(1px);
+    transform: scale(1);
+}
+
+.singleBlog:hover > .singleBlog--image > img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.singleBlog--body {
+    padding: 1rem;
+}
